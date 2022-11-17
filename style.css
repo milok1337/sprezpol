@@ -219,7 +219,6 @@ display: none;
     width: 350px;
     height: 105px;
     border-radius:20px;
-    border: 1px solid black;
     box-shadow: -3px 3px 10px 2px black;
     color:white;
     transition: 1s ease;
@@ -239,7 +238,6 @@ display: none;
     text-align: center;
     padding: 10px;
     display: none;
-    border:1.5px solid black;
     border-radius:25px;
 }
 @keyframes animate{
@@ -272,7 +270,6 @@ display: none;
     text-align: center;
     padding: 10px;
     display: none;
-    border:1.5px solid black;
     border-radius:25px;
 }
 .box1.active{
@@ -297,7 +294,6 @@ display: none;
     text-align: center;
     padding: 10px;
     display: none;
-    border:1.5px solid black;
     border-radius:25px;
 }
 .box2.active{
@@ -311,7 +307,8 @@ display: none;
 hr{
     border:1px solid white;
     margin:auto;
-    width: 1200px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 .bg_oferta{
     background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(uwu.jpg);
