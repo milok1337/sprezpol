@@ -180,7 +180,7 @@ display: none;
     margin-right: auto;
     margin-top:75px;
     width: 95%;
-    height: 2750px;
+    height: 3350px;
     border-radius: 25px;
     box-shadow: 0px 0px 25px 5px rgba(66, 68, 90, 1);
     background-color: rgb(10,10,10, .30);
@@ -188,11 +188,9 @@ display: none;
 }
 .bg_firma{
     /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(section1.png);*/
-    height: 950px;
+    height: 1400px;
 }
-#firma{
-    height: 950px;
-}
+
 #firma p{
     font-size: 50px;
     font-weight: 500;
@@ -377,7 +375,7 @@ hr{
     max-width: 1400px;
 }
 #kontakt p{
-    padding-top:75px;
+    padding-top:150px;
     font-size: 50px;
     font-weight: 500;
     text-align: center;
@@ -448,6 +446,7 @@ strong{
     font-size: 30px;
 }
 footer{
+    margin-top: 100px;
     display: block;
     width:100%;
     height: 50px;
