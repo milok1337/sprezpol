@@ -60,7 +60,7 @@ display: none;
     letter-spacing: 0px;
     margin-top:5%;
     margin-right:30px;
-    background-color: rgb(247, 242, 236);
+    box-shadow: 4px 4px 15px black;
     animation:show 3s both;
     animation-delay: 1s;
     transition: transform 0.75s ease;
@@ -203,9 +203,6 @@ display: none;
     color: white;
     padding-top:75px;
 }
-.p{
-    cursor:pointer;
-}
 .boxy{
     display: grid;
     column-gap: 100px;
@@ -221,14 +218,23 @@ display: none;
     border-radius:20px;
     box-shadow: -3px 3px 10px 2px black;
     color:white;
-    transition: 1s ease;
+    transition: 0.75s ease;
     cursor:pointer;
+}
+.box:hover{
+    background-color: rgb(193, 193, 193, 0.3);
+}
+.box1:hover{
+    background-color: rgb(193, 193, 193, 0.3);
+}
+.box2:hover{
+    background-color: rgb(193, 193, 193, 0.3);
 }
 .box h2{
     font-size:40px;
     text-align: center;
     padding-top:30px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .box h6{
     font-weight: 500;
@@ -260,7 +266,7 @@ display: none;
     font-size:40px;
     text-align: center;
     padding-top:30px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .box1 h6{
     font-weight: 500;
@@ -284,7 +290,7 @@ display: none;
     font-size:40px;
     text-align: center;
     padding-top:30px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .box2 h6{
     font-weight: 500;
@@ -308,7 +314,7 @@ hr{
     border:1px solid white;
     margin:auto;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .bg_oferta{
     background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(uwu.jpg);

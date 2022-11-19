@@ -1,12 +1,11 @@
 window.addEventListener('scroll', reveal);
-
 function reveal(){
-    var reveals = document.querySelectorAll('.reveal');
+    let reveals = document.querySelectorAll('.reveal');
 
-    for(var i=0; i< reveals.length; i++){
-        var windowheight = window.innerHeight;
-        var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = 175;
+    for(let i=0; i< reveals.length; i++){
+        let windowheight = window.innerHeight;
+        let revealtop = reveals[i].getBoundingClientRect().top;
+        let revealpoint = 175;
 
         if(revealtop < windowheight - revealpoint){ 
             reveals[i].classList.add('active');
@@ -16,6 +15,12 @@ function reveal(){
         }
 }
 }
+
+
+
+
+
+
 
 let box = document.querySelector('.box');
 let h6 = document.querySelector('.h6');
@@ -29,6 +34,7 @@ box.addEventListener('click', ()=> {
             setTimeout(() => {h6.classList.add('active')},1000);
         }
 })
+
 //--------------------------------------------------------------------
 
 let box1 = document.querySelector('.box1');
@@ -60,7 +66,7 @@ box2.addEventListener('click', ()=> {
 
 //--------------------------------------------------------------------
 
-let p = document.querySelector('.p');
+/*let p = document.querySelector('.p');
 
 p.addEventListener('click', ()=> {
     box.classList.toggle('active');
@@ -77,3 +83,4 @@ p.addEventListener('click', ()=> {
         setTimeout(() => {h62.classList.add('active')},1000);
     }
 })
+*/
