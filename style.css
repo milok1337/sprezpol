@@ -189,7 +189,7 @@ display: none;
     backdrop-filter: blur(7.5px);
 }
 .bg_firma{
-    background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(section1.png);
+    /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(section1.png);*/
     height: 950px;
 }
 #firma{
@@ -317,7 +317,7 @@ hr{
     margin-bottom: 40px;
 }
 .bg_oferta{
-    background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(uwu.jpg);
+    /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(uwu.jpg);*/
     height: 950px;
 }
 #oferta{
@@ -363,7 +363,7 @@ hr{
     margin-left:20px;
 }
 .bg_kontakt{
-    background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(springs.jpg);
+    /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(springs.jpg);*/
     height: 950px;
 }
 #kontakt{
@@ -460,27 +460,27 @@ footer p{
     text-align: center;
     line-height: 50px;
 }
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 900px){
     *{
         margin:0;
     }
     .main{
         height: 100%;
-        width: 100%;
+        width: 400px;
         /*background-image: url("springs.jpg");*/
-        animation: main 3s ease;
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
+    }
+    .logo{
+        margin-left: -20px;
+        width: 300px;
+        scale:0.7;
     }
     .cytat{
         display: block;
         height: 45px;
         width: 750px;
         font-family: 'Satisfy', cursive;
-        font-size: 30px;
-        margin-left:-70px;
+        font-size: 25px;
+        margin-left:-90px;
         color:black;
         font-style: italic;
         margin-top:30px;
@@ -493,8 +493,8 @@ footer p{
         width: 175px;
         height: 100px;
         letter-spacing: 0px;
-        margin-top:5%;
-        margin-right:30px;
+        margin-top:20px;
+        margin-right:-140px;
         box-shadow: 4px 4px 15px black; 
     }
     .menu ul li{
@@ -504,8 +504,8 @@ footer p{
     .arrow{
         position: absolute;
         top:70%;
-        left:5%;
-        transform:translate(-85%, -5%);
+        left:10%;
+        transform:translate(-85%, -10%);
     }
     .boxy{
         display: block;
