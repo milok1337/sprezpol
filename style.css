@@ -431,7 +431,6 @@ strong{
 }
 footer{
     display: block;
-
     width:100%;
     height: 50px;
     background-color: black;
@@ -445,6 +444,25 @@ footer p{
 
 
 @media (max-width: 768px){
+    .boxy{
+        display: block;
+        margin-top: 100px;
+    }
+    .box,.box1,.box2{
+        width: 90vw;
+        height: 400px;
+        margin-bottom: 20px;
+        cursor: none;
+    }
+    .box h6{
+        display: block;
+    }
+    .box1 h6{
+        display: block;
+    }
+    .box2 h6{
+        display: block;
+    }
     .box.active{
         width: 90vw;
         height: 400px;
@@ -457,12 +475,17 @@ footer p{
         width: 90vw;
         height: 400px;
     }
+    .box4_text{
+        width: 95vw;
+    }
     .logo img{
         scale: 0.7;
         margin-left:-50px
     }
     .arrow{
-        height: 70%;
+        top:85%;
+        left:15%;
+        transform:translate(-85%, -15%);
     }
     .cytat{
         display: none;
@@ -489,35 +512,39 @@ footer p{
     .bg_kontakt{
         height: 950px;
     }
-    .boxy{
-        display: block;
-    }
     .box,.box1,.box2{
         margin-left:auto;
         margin-right: auto;
-        width: 90vw;
-        margin-bottom:20px;
     }
     .box4{
+        margin-top: 100px;
         display: block;
-        height: 500px;
+        width: 90vw;
+        max-width: 1400px;
     }
     .box4_img img{
         margin-left:0px;
         width: 60vw;
     }
+    #kontakt p{
+        padding-top: 0px;
+    }
     .box5{
+        width: 90vw;
+        max-width: 1600px;
         display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
     .left{
-        margin-left:auto;
-        margin-right: auto;
-        width: 80vw;
+        margin-right:auto;
+        margin-left: auto;
+        width: 90vw;
     }
     .right{
+        margin-right:auto;
         margin-left:auto;
-        margin-right: auto;
-        width: 80vw;
+        width: 90vw;
     }
     nav .nav-list {
         display: grid;
@@ -538,7 +565,13 @@ footer p{
     nav .navbar-toggler {
         display: grid !important;
     }
-
+    footer{
+        height: 100px;
+    }
+    footer p{
+        line-height: 100px;
+        height: 100px;
+    }
 }
 
 nav .navbar-toggler {
