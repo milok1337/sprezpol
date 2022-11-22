@@ -522,6 +522,9 @@ footer p{
         width: 90vw;
         max-width: 1400px;
     }
+    .box4:hover{
+        transform: none;
+    }
     .box4_img img{
         margin-left:0px;
         width: 60vw;
@@ -541,10 +544,16 @@ footer p{
         margin-left: auto;
         width: 90vw;
     }
+    .left:hover{
+        transform: none;
+    }
     .right{
         margin-right:auto;
         margin-left:auto;
         width: 90vw;
+    }
+    .right:hover{
+        transform: none;
     }
     nav .nav-list {
         display: grid;
