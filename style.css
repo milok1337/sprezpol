@@ -458,13 +458,14 @@ footer p{
     .baner{
     }
     .bg{
-        height: 3200px;
+        height: 3750px;
     }
     #mid{
         transform: translateY(1%);
-        height: 3150px;
+        height: 3700px;
     }
     .bg_firma{
+        height: 1500px;
     }
     .bg_oferta{
         height: 950px;
