@@ -445,6 +445,18 @@ footer p{
 
 
 @media (max-width: 768px){
+    .box.active{
+        width: 90vw;
+        height: 400px;
+    }
+    .box1.active{
+        width: 90vw;
+        height: 400px;
+    }
+    .box2.active{
+        width: 90vw;
+        height: 400px;
+    }
     .logo img{
         scale: 0.7;
         margin-left:-50px
