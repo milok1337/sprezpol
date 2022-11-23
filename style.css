@@ -508,8 +508,6 @@ footer p{
         width: 100vw;
         height: 100vw;
     }
-    .baner{
-    }
     .bg{
         height: 3750px;
     }
@@ -700,8 +698,6 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     .main{
         width: 100vw;
         height: 100vw;
-    }
-    .baner{
     }
     .bg{
         height: 3750px;
