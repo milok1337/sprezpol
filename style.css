@@ -96,10 +96,9 @@ display: none;
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0 15%;
+    padding: 0 5%;
     height: 75px;
     line-height: 75px;
-    background: #404040;
 }
 nav .nav-list {
     display: flex;
@@ -116,8 +115,8 @@ nav .nav-list .nav-item:hover {
 }
 
 nav .nav-list .nav-link {
-    color: #f1f1f1;
-    font-size: 18px;
+    color: black;
+    font-size: 20px;
     font-weight: 500;
 }
 .cytat{
@@ -172,14 +171,18 @@ nav .nav-list .nav-link {
     height: 2750px;
     border-radius: 25px;
     box-shadow: 0px 0px 25px 5px rgba(66, 68, 90, 1);
-    background-color: rgb(10,10,10, .30);
-    backdrop-filter: blur(7.5px);
 }
 .bg_firma{
     /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(section1.png);*/
     height: 1600px;
+    border-radius: 25px;
 }
-
+#firma{
+    backdrop-filter: blur(7.5px);
+    height: 955px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
 #firma p{
     font-size: 50px;
     font-weight: 500;
@@ -298,6 +301,7 @@ hr{
     height: 950px;
 }
 #oferta{
+    backdrop-filter: blur(7.5px);
     height: 950px;
     font-weight: 500; 
 }
@@ -347,7 +351,10 @@ hr{
     height: 950px;
 }
 #kontakt{
-    max-height: 950px;
+    backdrop-filter: blur(7.5px);
+    height: 950px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .box5{
     margin-top:100px;
@@ -444,6 +451,12 @@ footer p{
 
 
 @media (max-width: 768px){
+    hr{
+        border-bottom: 1px solid black;;
+    }
+    #firma p{
+        color:black
+    }
     .boxy{
         display: block;
         margin-top: 100px;
@@ -453,6 +466,7 @@ footer p{
         height: 400px;
         margin-bottom: 20px;
         cursor: none;
+        color:black
     }
     .box h6{
         display: block;
@@ -480,7 +494,7 @@ footer p{
     }
     .logo img{
         scale: 0.7;
-        margin-left:-50px
+        margin-left:-63px
     }
     .arrow{
         top:85%;
@@ -516,11 +530,15 @@ footer p{
         margin-left:auto;
         margin-right: auto;
     }
+    #oferta p{
+        color:black
+    }
     .box4{
         margin-top: 100px;
         display: block;
         width: 90vw;
         max-width: 1400px;
+        color:black
     }
     .box4:hover{
         transform: none;
@@ -531,6 +549,7 @@ footer p{
     }
     #kontakt p{
         padding-top: 0px;
+        color:black
     }
     .box5{
         width: 90vw;
@@ -543,6 +562,7 @@ footer p{
         margin-right:auto;
         margin-left: auto;
         width: 90vw;
+        color:black;
     }
     .left:hover{
         transform: none;
@@ -551,6 +571,7 @@ footer p{
         margin-right:auto;
         margin-left:auto;
         width: 90vw;
+        color:black;
     }
     .right:hover{
         transform: none;
@@ -558,7 +579,7 @@ footer p{
     nav .nav-list {
         display: grid;
         position: absolute;
-        background: #404040;
+        background: rgb(235, 235, 235);
         width: 100%;
         top: 75px;
         left: 0;
@@ -594,7 +615,7 @@ nav .navbar-toggler .bar {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background: #ffffff;
+    background: black;
     border-radius: 10%;
     transition: .1s;
 }
@@ -623,16 +644,131 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
 }
 @media only screen and (max-width: 940px){
-    .box4{
+    hr{
+        border-bottom: 1px solid black;;
+    }
+    #firma p{
+        color:black
+    }
+    .boxy{
         display: block;
-        height: 520px;
+        margin-top: 100px;
     }
-    nav {
-        padding: 0 2rem;
+    .box,.box1,.box2{
+        width: 90vw;
+        height: 400px;
+        margin-bottom: 20px;
+        cursor: none;
+        color:black
     }
-
-    nav .nav-list .nav-item {
-        padding: 0 20px;
+    .box h6{
+        display: block;
+    }
+    .box1 h6{
+        display: block;
+    }
+    .box2 h6{
+        display: block;
+    }
+    .box.active{
+        width: 90vw;
+        height: 400px;
+    }
+    .box1.active{
+        width: 90vw;
+        height: 400px;
+    }
+    .box2.active{
+        width: 90vw;
+        height: 400px;
+    }
+    .box4_text{
+        width: 95vw;
+    }
+    .logo img{
+        scale: 0.7;
+        margin-left:-63px
+    }
+    .arrow{
+        top:85%;
+        left:15%;
+        transform:translate(-85%, -15%);
+    }
+    .cytat{
+        display: none;
+    }
+    .main{
+        width: 100vw;
+        height: 100vw;
+    }
+    .baner{
+    }
+    .bg{
+        height: 3750px;
+    }
+    #mid{
+        transform: translateY(1%);
+        height: 3700px;
+    }
+    .bg_firma{
+        height: 1500px;
+    }
+    .bg_oferta{
+        height: 950px;
+    }
+    .bg_kontakt{
+        height: 950px;
+    }
+    .box,.box1,.box2{
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #oferta p{
+        color:black
+    }
+    .box4{
+        margin-top: 100px;
+        display: block;
+        width: 90vw;
+        max-width: 1400px;
+        height: 500px;
+        color:black
+    }
+    .box4:hover{
+        transform: none;
+    }
+    .box4_img img{
+        margin-left:0px;
+        width: 60vw;
+    }
+    #kontakt p{
+        padding-top: 0px;
+        color:black
+    }
+    .box5{
+        width: 90vw;
+        max-width: 1600px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .left{
+        margin-right:auto;
+        margin-left: auto;
+        width: 90vw;
+        color:black;
+    }
+    .left:hover{
+        transform: none;
+    }
+    .right{
+        margin-right:auto;
+        margin-left:auto;
+        width: 90vw;
+        color:black;
+    }
+    .right:hover{
+        transform: none;
     }
 }
 @media only screen and (min-width: 1400px){
@@ -652,6 +788,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     }
     .bg_kontakt{
         background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(springs.jpg);
-
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
     }
 }
