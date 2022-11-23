@@ -111,7 +111,7 @@ nav .nav-list .nav-item {
 }
 
 nav .nav-list .nav-item:hover {
-    background: #b69955;
+    background: rgba(245,110,20,255);
 }
 
 nav .nav-list .nav-link {
