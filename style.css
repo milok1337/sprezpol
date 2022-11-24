@@ -17,7 +17,7 @@ body{
 body::-webkit-scrollbar{
 display: none;
 }
-@keyframes mmain{
+@keyframes main{
     0%{
         opacity:0;
     }
@@ -25,7 +25,7 @@ display: none;
         opacity:1;
     }
 }
-@keyframes llogoslide {
+@keyframes logoslide {
     0%{
         transform: translateX(-750px);
     }
@@ -33,7 +33,7 @@ display: none;
         transform: translateX(0px);
     }
 }
-@keyframes sshow {
+@keyframes show {
     0%{
         opacity: 0;
     }
@@ -41,7 +41,7 @@ display: none;
         opacity: 1;
     }
 }
-@keyframes ccytatslide{ 
+@keyframes cytatslide{ 
     0%{
         transform:translateY(-500px);
     }
@@ -49,7 +49,7 @@ display: none;
         transform:translateY(0px);
     }
 }
-@keyframes sslide {
+@keyframes slide {
     0%{
         opacity: 0;
         transform: translateX(800px);
@@ -60,7 +60,7 @@ display: none;
         transform: translateX(0px);
     }
 }
-@keyframes sscroll{
+@keyframes scroll{
     0%{
         opacity:0;
         transform: rotate(45deg) translate(-10px,-10px);
@@ -73,7 +73,7 @@ display: none;
         transform: rotate(45deg) translate(10px,10px);
     }
 }
-@keyframes aanimate{
+@keyframes animate{
     0%{
         opacity:0;
     }
@@ -107,6 +107,7 @@ nav .nav-list {
 nav .nav-list .nav-item {
     height: 100%;
     padding: 0 30px;
+    animation: slide 2s both;
     transition: .4s;
 }
 
@@ -130,7 +131,7 @@ nav .nav-list .nav-link {
     opacity: 0.5;
     letter-spacing: 2px;
     animation: cytatslide 2s both;
-    animation-delay: 2.75s;
+    animation-delay: .75s;
     text-shadow: 1px 1px black;
     margin-top:2vw;
     margin-left: 12vw;
@@ -168,7 +169,7 @@ nav .nav-list .nav-link {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    height: 2750px;
+    height: 2800px;
     border-radius: 25px;
     box-shadow: 0px 0px 25px 5px rgba(66, 68, 90, 1);
 }
@@ -348,11 +349,11 @@ hr{
 }
 .bg_kontakt{
     /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(springs.jpg);*/
-    height: 950px;
+    height: 900px;
 }
 #kontakt{
     backdrop-filter: blur(7.5px);
-    height: 950px;
+    height: 900px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
