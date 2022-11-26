@@ -514,14 +514,26 @@ footer p{
     .box.active{
         width: 90vw;
         height: 400px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
+    }
+    .box:hover{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
+    }
+    .box1:hover{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
     }
     .box1.active{
         width: 90vw;
         height: 400px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
+    }
+    .box2:hover{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
     }
     .box2.active{
         width: 90vw;
         height: 400px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
     }
     .logo img{
         scale: 0.7;
@@ -543,7 +555,7 @@ footer p{
         margin-left:auto;
         margin-right: auto;
     }
-    .box_arrow,.box_arrow1,.box_arrow2{
+    .box_arrow, .box_arrow2{
         display: none;
     }
     #firma{
@@ -557,13 +569,13 @@ footer p{
         min-height: 600px;
         width: 90vw;
         max-width: 1400px;
-        background-image: none;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(section2.jpg);
     }
     .box4_text{
         display: block;
         width: 95vw;
         font-size: 15px;
-        color:black;
+        color:white;
     }
     .box4:hover{
         transform: none;
@@ -587,7 +599,6 @@ footer p{
         margin-right:auto;
         margin-left: auto;
         width: 90vw;
-        background-image: none;
     }
     .left:hover{
         transform: none;
@@ -596,7 +607,6 @@ footer p{
         margin-right:auto;
         margin-left:auto;
         width: 90vw;
-        background-image: none;
     }
     .right:hover{
         transform: none;
@@ -767,7 +777,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         margin-right:auto;
         margin-left: auto;
         width: 90vw;
-        color:black;
+        color:white;
     }
     .left:hover{
         transform: none;
@@ -776,7 +786,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         margin-right:auto;
         margin-left:auto;
         width: 90vw;
-        color:black;
+        color:bwhite;
     }
     .right:hover{
         transform: none;
