@@ -85,7 +85,7 @@ display: none;
     animation: main 3s ease;
 }
 .bg{    
-    height: 2900px;
+    height: 2550px;
 }
 .logo{
     animation: logoslide 1.5s both;
@@ -169,19 +169,13 @@ nav .nav-list .nav-link {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    height: 2800px;
+    height: 2450px;
     border-radius: 25px;
     box-shadow: 0px 0px 25px 5px rgba(66, 68, 90, 1);
 }
-.bg_firma{
-    /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(section1.png);*/
-    height: 1600px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-}
 #firma{
     backdrop-filter: blur(7.5px);
-    height: 955px;
+    height: 800px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -190,7 +184,7 @@ nav .nav-list .nav-link {
     font-weight: 500;
     text-align: center;
     height: 50px;
-    color: white;
+    color: black;
     padding-top:75px;
 }
 .boxy{
@@ -201,13 +195,16 @@ nav .nav-list .nav-link {
     margin-top:200px;
     height: 400px;
 }
+.box:hover, .box1:hover, .box2:hover{
+    background-color: rgb(230, 230, 230);
+}
 .box,.box1,.box2{
     box-shadow: -3px 3px 10px 2px black;
     font-weight: 500;
     width: 22vw;
     height: 105px;
     border-radius:20px;
-    color:white;
+    color:black;
     transition: 0.75s ease;
     cursor:pointer;
 }
@@ -263,7 +260,6 @@ nav .nav-list .nav-link {
 .box.active{
     height: 400px;
     box-shadow: -3px 3px 10px 2px black;
-    background-color: rgb(193, 193, 193, 0.3);
 }
 .h6.active{
     animation: animate 1s;
@@ -288,7 +284,6 @@ nav .nav-list .nav-link {
 .box1.active{
     height: 400px;
     box-shadow: -3px 3px 10px 2px black;
-    background-color: rgb(193, 193, 193, 0.3);
 }
 .h61.active{
     animation: animate 1s;
@@ -313,35 +308,30 @@ nav .nav-list .nav-link {
 .box2.active{
     height: 400px;
     box-shadow: -3px 3px 10px 2px black;
-    background-color: rgb(193, 193, 193, 0.3);
 }
 .h62.active{
     animation: animate 1s;
     display: block;
 }
+.hr1{
+    width: 80%;
+}
 hr{
-    border:1px solid white;
+    border:1px solid black;
     margin:auto;
     width: 100%;
     margin-bottom: 40px;
 }
-.bg_oferta{
-    /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(uwu.jpg);*/
-    height: 950px;
-}
 #oferta{
-    backdrop-filter: blur(7.5px);
-    height: 950px;
+    height: 800px;
     font-weight: 500; 
 }
 #of{
-    padding-top: 75px;
     font-size: 50px;
     font-weight: 500;
     text-align: center;
     height: 50px;
-    color: white;
-    margin-bottom:25px;
+    color: black;
 }
 .box4{
     margin-top:200px;
@@ -353,7 +343,7 @@ hr{
     box-shadow: -3px 3px 10px 2px black;
     border-radius: 25px;
     border:1px solid black;
-    color:white;
+    color:black;
     transition: transform 0.75s ease;
 }
 .box4:hover{
@@ -376,13 +366,8 @@ hr{
 .box4_img img{
     max-width: 470px;
 }
-.bg_kontakt{
-    /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(springs.jpg);*/
-    height: 900px;
-}
 #kontakt{
-    backdrop-filter: blur(7.5px);
-    height: 900px;
+    height: 800px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
@@ -396,16 +381,15 @@ hr{
     max-width: 80vw;
 }
 #kontakt p{
-    padding-top:150px;
     font-size: 50px;
     font-weight: 500;
     text-align: center;
     height: 50px;
-    color: white;
+    color: black;
 }
 .left{
     display: block;
-    color:white;
+    color:black;
     margin-top:100px;
     width: 34vw;
     height: 400px;
@@ -427,7 +411,7 @@ hr{
 }
 .right{
     display: block;
-    color:white;
+    color:black;
     margin-top:100px;
     width: 34vw;
     height: 400px;
@@ -805,18 +789,5 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     }
     .baner{
         background-image: url("springs.jpg");
-    }
-    .bg_firma{
-        background: linear-gradient(90deg, rgba(0,212,255,1)0%, rgba(98,9,121,1) 47%, rgba(2,0,36,1)100%);
-        background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(section1.png); 
-    }
-    .bg_oferta{
-        background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(section2.jpg);
-
-    }
-    .bg_kontakt{
-        background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(c_springs.jpg);
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
     }
 }
