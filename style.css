@@ -482,7 +482,7 @@ footer p{
         border-bottom: 1px solid black;;
     }
     footer{
-        margin-top:4000px;
+        margin-top:4100px;
     }
     #mid{
         max-height:3460px;
@@ -722,9 +722,6 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     .main{
         width: 100vw;
         height: 100vw;
-    }
-    .bg{
-        height: 3750px;
     }
     #mid{
         transform: translateY(1%);
