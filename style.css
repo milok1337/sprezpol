@@ -84,7 +84,7 @@ display: none;
 .main{
     animation: main 3s ease;
 }
-.bg{    
+#bg{    
     height: 2550px;
 }
 .logo{
@@ -527,15 +527,6 @@ footer p{
         transform: translateY(1%);
         height: 3700px;
     }
-    .bg_firma{
-        height: 1500px;
-    }
-    .bg_oferta{
-        height: 950px;
-    }
-    .bg_kontakt{
-        height: 950px;
-    }
     .box,.box1,.box2{
         margin-left:auto;
         margin-right: auto;
@@ -719,15 +710,6 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         transform: translateY(1%);
         height: 3700px;
     }
-    .bg_firma{
-        height: 1500px;
-    }
-    .bg_oferta{
-        height: 950px;
-    }
-    .bg_kontakt{
-        height: 950px;
-    }
     .box,.box1,.box2{
         margin-left:auto;
         margin-right: auto;
@@ -784,9 +766,6 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     }
 }
 @media only screen and (min-width: 1400px){
-    .bg_firma{
-        height: 950px;
-    }
     .baner{
         background-image: url("springs.jpg");
     }
