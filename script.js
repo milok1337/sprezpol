@@ -10,9 +10,6 @@ function reveal(){
         if(revealtop < windowheight - revealpoint){ 
             reveals[i].classList.add('active');
         }
-        else{
-            reveals[i].classList.remove('active');
-        }
 }
 }
 
@@ -24,9 +21,11 @@ function reveal(){
 
 let box = document.querySelector('.box');
 let h6 = document.querySelector('.h6');
+let box_arrow = document.querySelector('.box_arrow');
 
 box.addEventListener('click', ()=> {
     box.classList.toggle('active');
+    box_arrow.classList.toggle('active');
         if(h6.classList.contains('active')){
             h6.classList.remove('active');
         }
@@ -39,9 +38,10 @@ box.addEventListener('click', ()=> {
 
 let box1 = document.querySelector('.box1');
 let h61 = document.querySelector('.h61');
-
+let box_arrow1 = document.querySelector('.xd');
 box1.addEventListener('click', ()=> {
     box1.classList.toggle('active');
+    box_arrow1.classList.toggle('active');
         if(h61.classList.contains('active')){
             h61.classList.remove('active');
         }
@@ -53,9 +53,10 @@ box1.addEventListener('click', ()=> {
 
 let box2 = document.querySelector('.box2');
 let h62 = document.querySelector('.h62');
-
+let box_arrow2 = document.querySelector('.box_arrow2');
 box2.addEventListener('click', ()=> {
     box2.classList.toggle('active');
+    box_arrow2.classList.toggle('active');
         if(h62.classList.contains('active')){
             h62.classList.remove('active');
         }
@@ -63,6 +64,7 @@ box2.addEventListener('click', ()=> {
             setTimeout(() => {h62.classList.add('active')},1000);
         }
 })
+
 
 //--------------------------------------------------------------------
 

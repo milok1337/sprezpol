@@ -146,8 +146,8 @@ nav .nav-list .nav-link {
     display: block;
     width: 30px;
     height: 30px;
-    border-bottom:5px solid black;
-    border-right:5px solid black;
+    border-bottom:5px solid rgba(76,64,140,255);
+    border-right:5px solid rgba(76,64,140,255);
     transform: rotate(45deg);
     margin:-5px;
     animation: scroll 2s infinite;
@@ -201,23 +201,47 @@ nav .nav-list .nav-link {
     height: 400px;
 }
 .box,.box1,.box2{
+    box-shadow: -3px 3px 10px 2px black;
     font-weight: 500;
     width: 22vw;
     height: 105px;
     border-radius:20px;
-    box-shadow: -3px 3px 10px 2px black;
     color:white;
     transition: 0.75s ease;
     cursor:pointer;
 }
-.box:hover{
-    background-color: rgb(193, 193, 193, 0.3);
+.box_arrow{
+    margin-left: 190px;
+    margin-top: -20px;
+    height:20px;
+    width:20px;
+    transition: 0.5s ease;
 }
-.box1:hover{
-    background-color: rgb(193, 193, 193, 0.3);
+.box_arrow2{
+    margin-left: 190px;
+    margin-top: -20px;
+    height:20px;
+    width:20px;
+    transition: 0.5s ease;
 }
-.box2:hover{
-    background-color: rgb(193, 193, 193, 0.3);
+.xd{
+    margin-left: 190px;
+    margin-top: -20px;
+    height:20px;
+    width:20px;
+    transition: 0.5s ease;
+}
+.xd.active{
+    rotate: 180deg;
+}
+.box_arrow.active{
+    rotate: 180deg;
+}
+.box_arrow1.active{
+    rotate: 180deg;
+}
+.box_arrow2.active{
+    rotate: 180deg;
 }
 .box h2{
     font-size:40px;
@@ -236,8 +260,9 @@ nav .nav-list .nav-link {
     border-radius:25px;
 }
 .box.active{
-    width: 400px;
     height: 400px;
+    box-shadow: -3px 3px 10px 2px black;
+    background-color: rgb(193, 193, 193, 0.3);
 }
 .h6.active{
     animation: animate 1s;
@@ -260,8 +285,9 @@ nav .nav-list .nav-link {
     border-radius:25px;
 }
 .box1.active{
-    width: 400px;
     height: 400px;
+    box-shadow: -3px 3px 10px 2px black;
+    background-color: rgb(193, 193, 193, 0.3);
 }
 .h61.active{
     animation: animate 1s;
@@ -284,8 +310,9 @@ nav .nav-list .nav-link {
     border-radius:25px;
 }
 .box2.active{
-    width: 400px;
     height: 400px;
+    box-shadow: -3px 3px 10px 2px black;
+    background-color: rgb(193, 193, 193, 0.3);
 }
 .h62.active{
     animation: animate 1s;
@@ -334,6 +361,7 @@ hr{
 
 .box4_text{
     margin-top:50px;
+    font-size: 20px;
 }
 .box4_text ul li{
     margin-bottom: 25px;
@@ -341,11 +369,11 @@ hr{
     margin-left:50px;
 }
 .box4_img{
-    margin-top:40px;
+    margin-top:20px;
     margin-left:20px;
 }
 .box4_img img{
-    max-width: 500px;
+    max-width: 470px;
 }
 .bg_kontakt{
     /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(springs.jpg);*/
@@ -467,7 +495,8 @@ footer p{
         height: 400px;
         margin-bottom: 20px;
         cursor: none;
-        color:black
+        color:black;
+        box-shadow: -3px 3px 10px 2px black;
     }
     .box h6{
         display: block;
@@ -489,9 +518,6 @@ footer p{
     .box2.active{
         width: 90vw;
         height: 400px;
-    }
-    .box4_text{
-        width: 95vw;
     }
     .logo img{
         scale: 0.7;
@@ -539,12 +565,16 @@ footer p{
         max-width: 1400px;
         color:black
     }
+    .box4_text{
+        width: 95vw;
+        font-size: 15px;
+    }
     .box4:hover{
         transform: none;
     }
     .box4_img img{
-        margin-left:0px;
-        width: 60vw;
+        display: flex;
+        transform: translateX(17.5%);
     }
     #kontakt p{
         padding-top: 0px;
@@ -642,7 +672,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
 input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
 }
-@media only screen and (max-width: 940px){
+@media only screen and (max-width: 1399px){
     hr{
         border-bottom: 1px solid black;;
     }
@@ -658,7 +688,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         height: 400px;
         margin-bottom: 20px;
         cursor: none;
-        color:black
+        color:black;
     }
     .box h6{
         display: block;
@@ -680,9 +710,6 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     .box2.active{
         width: 90vw;
         height: 400px;
-    }
-    .box4_text{
-        width: 95vw;
     }
     .logo img{
         scale: 0.7;
@@ -725,7 +752,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     }
     .box4{
         margin-top: 100px;
-        display: block;
+        display: flex;
         width: 90vw;
         max-width: 1400px;
         height: 500px;
@@ -736,7 +763,10 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     }
     .box4_img img{
         margin-left:0px;
-        width: 60vw;
+        width:250px;
+    }
+    .box4_text{
+        width: 95vw;
     }
     #kontakt p{
         padding-top: 0px;
@@ -777,14 +807,14 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     }
     .bg_firma{
         background: linear-gradient(90deg, rgba(0,212,255,1)0%, rgba(98,9,121,1) 47%, rgba(2,0,36,1)100%);
-        background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(section1.png); 
+        background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(section1.png); 
     }
     .bg_oferta{
-        background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(uwu.jpg);
+        background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(section2.jpg);
 
     }
     .bg_kontakt{
-        background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(springs.jpg);
+        background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(c_springs.jpg);
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
     }
