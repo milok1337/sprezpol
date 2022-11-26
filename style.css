@@ -176,7 +176,8 @@ nav .nav-list .nav-link {
 .bg_firma{
     /*background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(section1.png);*/
     height: 1600px;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 #firma{
     backdrop-filter: blur(7.5px);
@@ -810,11 +811,11 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(section1.png); 
     }
     .bg_oferta{
-        background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(section2.jpg);
+        background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(section2.jpg);
 
     }
     .bg_kontakt{
-        background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url(c_springs.jpg);
+        background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(c_springs.jpg);
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
     }
