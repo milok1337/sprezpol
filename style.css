@@ -705,31 +705,36 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     }
     .box{
         background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
+        background-size:cover;
     }
     .box1{
         background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
-
+        background-size:cover;
     }
     .box2{
         background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(c_springs.jpg);
+        background-size:cover;
     }
     .box h2{
         color:white;
     }
     .box h6{
         color:white;
+        display: block;
     }
     .box1 h2{
         color:white;
     }
     .box1 h6{
         color:white;
+        display: block;
     }
     .box2 h2{
         color:white;
     }
     .box2 h6{
         color:white;
+        display: block;
     }
     .box.active{
         width: 90vw;
