@@ -474,7 +474,159 @@ footer p{
 }
 
 
-
+@media only screen and ( max-width: 1399px){
+    hr{
+        border-bottom: 1px solid black;;
+    }
+    #bg{
+        height: 3550px;
+    }
+    #mid{
+        max-height:3500px;
+    }
+    #firma p{
+        color:black
+    }
+    #firma{
+        height: 1500px;
+    }
+    .boxy{
+        display: block;
+        margin-top: 100px;
+    }
+    .box,.box1,.box2{
+        background-color: white;
+        width: 90vw;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    .box{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
+        background-size:cover;
+        pointer-events: none;
+    }
+    .box1{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
+        background-size:cover;
+        pointer-events: none;
+    }
+    .box2{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(c_springs.jpg);
+        background-size:cover;
+        pointer-events: none;
+    }
+    .box h2{
+        color:white;
+    }
+    .box h6{
+        color:white;
+        display: block;
+    }
+    .box1 h2{
+        color:white;
+    }
+    .box1 h6{
+        color:white;
+        display: block;
+    }
+    .box2 h2{
+        color:white;
+    }
+    .box2 h6{
+        color:white;
+        display: block;
+    }
+    .box.active{
+        width: 90vw;
+        height: 400px;
+    }
+    .box1.active{
+        width: 90vw;
+        height: 400px;
+    }
+    .box2.active{
+        width: 90vw;
+        height: 400px;
+    }
+    .logo img{
+        scale: 0.7;
+        margin-left:-63px
+    }
+    .arrow{
+        transform:translate(50px, 600px);
+    }
+    .cytat{
+        display: none;
+    }
+    .main{
+        width: 100vw;
+    }
+    #mid{
+        transform: translateY(1%);
+        height: 3600px;
+    }
+    .box,.box1,.box2{
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #oferta p{
+        color:black;
+    }
+    .box4{
+        margin-top: 100px;
+        width: 90vw;
+        max-width: 1400px;
+        height: 500px;
+        color:white;
+        word-wrap: break-word;
+    }
+    .box4:hover{
+        transform: none;
+    }
+    .box4_img img{
+        margin-left:0px;
+        width:250px;
+    }
+    .box4_text{
+        width: 95vw;
+    }
+    #kontakt p{
+        padding-top: 0px;
+        color:black
+    }
+    .box5{
+        width: 90vw;
+        max-width: 1600px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .left{
+        margin-right:auto;
+        margin-left: auto;
+        width: 90vw;
+        color:white;
+        background-size:cover;
+    }
+    .left:hover{
+        transform: none;
+    }
+    .right{
+        margin-right:auto;
+        margin-left:auto;
+        width: 90vw;
+        color:white;
+        background-size:cover;
+    }
+    .right:hover{
+        transform: none;
+    }
+}
+@media only screen and (min-width: 1400px){
+    .baner{
+        background-image: url("springs.jpg");
+    }
+}
 @media (max-width: 768px){
     hr{
         border-bottom: 1px solid black;;
@@ -543,7 +695,7 @@ footer p{
         margin-left:-63px
     }
     .arrow{
-        transform:translate(50px, 600px);
+        transform:translate(50px, 500px);
     }
     .cytat{
         display: none;
@@ -673,157 +825,4 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
 
 input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
-}
-@media only screen and ( max-width: 1399px){
-    hr{
-        border-bottom: 1px solid black;;
-    }
-    #bg{
-        height: 3550px;
-    }
-    #mid{
-        max-height:3500px;
-    }
-    #firma p{
-        color:black
-    }
-    #firma{
-        height: 1500px;
-    }
-    .boxy{
-        display: block;
-        margin-top: 100px;
-    }
-    .box,.box1,.box2{
-        background-color: white;
-        width: 90vw;
-        height: 400px;
-        margin-bottom: 20px;
-    }
-    .box:hover, .box1:hover, .box2:hover{
-        background-color: white;
-    }
-    .box{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
-        background-size:cover;
-    }
-    .box1{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
-        background-size:cover;
-    }
-    .box2{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(c_springs.jpg);
-        background-size:cover;
-    }
-    .box h2{
-        color:white;
-    }
-    .box h6{
-        color:white;
-        display: block;
-    }
-    .box1 h2{
-        color:white;
-    }
-    .box1 h6{
-        color:white;
-        display: block;
-    }
-    .box2 h2{
-        color:white;
-    }
-    .box2 h6{
-        color:white;
-        display: block;
-    }
-    .box.active{
-        width: 90vw;
-        height: 400px;
-    }
-    .box1.active{
-        width: 90vw;
-        height: 400px;
-    }
-    .box2.active{
-        width: 90vw;
-        height: 400px;
-    }
-    .logo img{
-        scale: 0.7;
-        margin-left:-63px
-    }
-    .arrow{
-        transform:translate(50px, 600px);
-    }
-    .cytat{
-        display: none;
-    }
-    .main{
-        width: 100vw;
-    }
-    #mid{
-        transform: translateY(1%);
-        height: 3600px;
-    }
-    .box,.box1,.box2{
-        margin-left:auto;
-        margin-right: auto;
-    }
-    #oferta p{
-        color:black;
-    }
-    .box4{
-        margin-top: 100px;
-        width: 90vw;
-        max-width: 1400px;
-        height: 500px;
-        color:white;
-        word-wrap: break-word;
-    }
-    .box4:hover{
-        transform: none;
-    }
-    .box4_img img{
-        margin-left:0px;
-        width:250px;
-    }
-    .box4_text{
-        width: 95vw;
-    }
-    #kontakt p{
-        padding-top: 0px;
-        color:black
-    }
-    .box5{
-        width: 90vw;
-        max-width: 1600px;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .left{
-        margin-right:auto;
-        margin-left: auto;
-        width: 90vw;
-        color:white;
-        background-size:cover;
-    }
-    .left:hover{
-        transform: none;
-    }
-    .right{
-        margin-right:auto;
-        margin-left:auto;
-        width: 90vw;
-        color:white;
-        background-size:cover;
-    }
-    .right:hover{
-        transform: none;
-    }
-}
-@media only screen and (min-width: 1400px){
-    .baner{
-        background-image: url("springs.jpg");
-    }
 }
