@@ -121,14 +121,13 @@ nav .nav-list .nav-link {
     font-weight: 500;
 }
 .cytat{
-    font-family: 'Satisfy', cursive;
     display: block;
     height: 45px;
-    width: 750px;
+    width: 850px;
     font-size: 40px;
     color:black;
     font-style: italic;
-    opacity: 0.5;
+    opacity: 1;
     letter-spacing: 2px;
     animation: cytatslide 2s both;
     animation-delay: .75s;
@@ -138,9 +137,7 @@ nav .nav-list .nav-link {
 }
 .arrow{
     position: absolute;
-    top:85%;
-    left:5%;
-    transform:translate(-85%, -5%);
+    transform:translate(50px, 600px);
 }
 .arrow span{
     display: block;
@@ -196,6 +193,7 @@ nav .nav-list .nav-link {
     height: 400px;
 }
 .box,.box1,.box2{
+    background-color: rgb(235, 145, 85);
     box-shadow: -3px 3px 10px 2px black;
     font-weight: 500;
     width: 22vw;
@@ -205,26 +203,29 @@ nav .nav-list .nav-link {
     cursor:pointer;
 }
 .box:hover, .box1:hover, .box2:hover{
-    background-color: rgba(245,110,20);
+    background-color: rgba(245,110,20, 1);
     color:white;
 }
 .box_arrow{
-    margin-left: 190px;
-    margin-top: -20px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
     height:20px;
     width:20px;
     transition: 0.5s ease;
 }
 .box_arrow2{
-    margin-left: 190px;
-    margin-top: -20px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
     height:20px;
     width:20px;
     transition: 0.5s ease;
 }
 .xd{
-    margin-left: 190px;
-    margin-top: -20px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
     height:20px;
     width:20px;
     transition: 0.5s ease;
@@ -244,16 +245,14 @@ nav .nav-list .nav-link {
 .box h2{
     font-size:40px;
     text-align: center;
-    padding-top:30px;
+    padding-top:20px;
     padding-bottom: 10px;
 }
 .box h6{
     font-weight: 500;
     font-size:20px;
-    padding-top:40px;
     margin:10px;
     text-align: center;
-    padding: 10px;
     display: none;
     border-radius:25px;
 }
@@ -261,6 +260,7 @@ nav .nav-list .nav-link {
     height: 400px;
     box-shadow: -3px 3px 10px 2px black;
     background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
+    background-size: cover;
     color:white;
 }
 .h6.active{
@@ -270,16 +270,15 @@ nav .nav-list .nav-link {
 .box1 h2{
     font-size:40px;
     text-align: center;
-    padding-top:30px;
+    padding-top:20px;
     padding-bottom: 10px;
 }
 .box1 h6{
     font-weight: 500;
     font-size:20px;
-    padding-top:40px;
     margin:10px;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     display: none;
     border-radius:25px;
 }
@@ -297,16 +296,15 @@ nav .nav-list .nav-link {
 .box2 h2{
     font-size:40px;
     text-align: center;
-    padding-top:30px;
+    padding-top:20px;
     padding-bottom: 10px;
 }
 .box2 h6{
     font-weight: 500;
     font-size:20px;
-    padding-top:40px;
     margin:10px;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     display: none;
     border-radius:25px;
 }
@@ -481,11 +479,11 @@ footer p{
     hr{
         border-bottom: 1px solid black;;
     }
-    footer{
-        margin-top:4100px;
+    .main{
+        height: 4550px;
     }
     #mid{
-        max-height:3460px;
+        max-height:3560px;
     }
     #firma p{
         color:black
@@ -498,64 +496,69 @@ footer p{
         width: 90vw;
         height: 400px;
         margin-bottom: 20px;
-        cursor: none;
         color:white;
         box-shadow: -3px 3px 10px 2px black;
     }
+    .box{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
+    }
+    .box1{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
+    }
+    .box2{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(c_springs.jpg);
+    }
+    .box h2{
+        color:white;
+    }
     .box h6{
-        display: block;
+        color:white;
+    }
+    .box1 h2{
+        color:white;
     }
     .box1 h6{
-        display: block;
+        color:white;
+    }
+    .box2 h2{
+        color:white;
     }
     .box2 h6{
-        display: block;
+        color:white;
     }
     .box.active{
         width: 90vw;
         height: 400px;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
-    }
-    .box:hover{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
-    }
-    .box1:hover{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
     }
     .box1.active{
         width: 90vw;
         height: 400px;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
-    }
-    .box2:hover{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
     }
     .box2.active{
         width: 90vw;
         height: 400px;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
     }
     .logo img{
         scale: 0.7;
         margin-left:-63px
     }
     .arrow{
-        top:85%;
-        left:15%;
-        transform:translate(-85%, -15%);
+        transform:translate(50px, 600px);
     }
     .cytat{
         display: none;
     }
     .main{
         width: 100vw;
-        height: 100vw;
     }
     .box,.box1,.box2{
         margin-left:auto;
         margin-right: auto;
     }
     .box_arrow, .box_arrow2{
+        display: none;
+    }
+    .xd{
         display: none;
     }
     #firma{
@@ -630,13 +633,6 @@ footer p{
     nav .navbar-toggler {
         display: grid !important;
     }
-    footer{
-        height: 100px;
-    }
-    footer p{
-        line-height: 100px;
-        height: 100px;
-    }
 }
 
 nav .navbar-toggler {
@@ -682,28 +678,58 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     hr{
         border-bottom: 1px solid black;;
     }
+    #bg{
+        height: 3550px;
+    }
+    #mid{
+        max-height:3500px;
+    }
     #firma p{
         color:black
+    }
+    #firma{
+        height: 1500px;
     }
     .boxy{
         display: block;
         margin-top: 100px;
     }
     .box,.box1,.box2{
+        background-color: white;
         width: 90vw;
         height: 400px;
         margin-bottom: 20px;
-        cursor: none;
-        color:black;
+    }
+    .box:hover, .box1:hover, .box2:hover{
+        background-color: white;
+    }
+    .box{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(v_springs.jpg);
+    }
+    .box1{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(box2.jpg);
+
+    }
+    .box2{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(c_springs.jpg);
+    }
+    .box h2{
+        color:white;
     }
     .box h6{
-        display: block;
+        color:white;
+    }
+    .box1 h2{
+        color:white;
     }
     .box1 h6{
-        display: block;
+        color:white;
+    }
+    .box2 h2{
+        color:white;
     }
     .box2 h6{
-        display: block;
+        color:white;
     }
     .box.active{
         width: 90vw;
@@ -722,34 +748,31 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         margin-left:-63px
     }
     .arrow{
-        top:85%;
-        left:15%;
-        transform:translate(-85%, -15%);
+        transform:translate(50px, 600px);
     }
     .cytat{
         display: none;
     }
     .main{
         width: 100vw;
-        height: 100vw;
     }
     #mid{
         transform: translateY(1%);
-        height: 3700px;
+        height: 3600px;
     }
     .box,.box1,.box2{
         margin-left:auto;
         margin-right: auto;
     }
     #oferta p{
-        color:black
+        color:black;
     }
     .box4{
         margin-top: 100px;
         width: 90vw;
         max-width: 1400px;
         height: 500px;
-        color:black;
+        color:white;
         word-wrap: break-word;
     }
     .box4:hover{
@@ -778,6 +801,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         margin-left: auto;
         width: 90vw;
         color:white;
+        background-size:cover;
     }
     .left:hover{
         transform: none;
@@ -786,7 +810,8 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         margin-right:auto;
         margin-left:auto;
         width: 90vw;
-        color:bwhite;
+        color:white;
+        background-size:cover;
     }
     .right:hover{
         transform: none;
