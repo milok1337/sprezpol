@@ -739,6 +739,9 @@ footer p{
         display: block;
         transform: translateX(17.5%);
     }
+     .box4_text ul li{
+      margin-left:0px;
+}
     #kontakt p{
         padding-top: 0px;
         color:black
