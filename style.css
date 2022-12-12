@@ -632,7 +632,7 @@ footer p{
         border-bottom: 1px solid black;;
     }
     .main{
-        height: 4550px;
+        height: 4600px;
     }
     #mid{
         max-height:3560px;
@@ -741,6 +741,7 @@ footer p{
     }
      .box4_text ul li{
       margin-left:0px;
+      margin:10px;
 }
     #kontakt p{
         padding-top: 0px;
